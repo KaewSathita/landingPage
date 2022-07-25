@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    gap: 1rem;
+    background-color:lightgray;
+    align-items: center;
+    justify-content: space-evenly;
+    /* position: absolute; */
+    width: 100%;
+    height: 100px;
+}
+
+.login img{
+    display: inline;
+    height: 30px;
+}
+
+.login h4 {
+    display: inline;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: -5px;
+    left: 2px;
+    position: relative;
+}
+
+.logo {
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo h4{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    width: 60%;
+    gap: 15px;
+    justify-content: right;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+a.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.word{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+  }
+
+.word h1 {
+    font-size: 100px;
+    margin: 0px;
+    letter-spacing: 20px;
+  }
+
+.word h3{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+.word button {
+  background-color: black;
+  color: white;
+  padding: 4px 4px;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  cursor: pointer;
+  top: 200px;
+  left: 220px;
+  position: absolute;
+
+}
+
+
+.MyDetail {
+  float: left;
+  padding: 50px 10px;
+  width: 35%;
+  height: 300px;
+}
+.MyDetail h2{
+  text-decoration:overline 1px;
+  color: black;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.MyDetail h3{
+  color: black;
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MyDetail .readMore{
+  padding-top: 20px;
+  display: block;
+  /* left: 200px;
+  top: 550px; */
+  /* position: relative; */
+  font-size: 20px;
+}
+
+.MyDetail .readMore button{
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+  cursor:pointer;
+
+}
+
+
+.MyPhoto img{
+  float:right;
+  display: block;
+  padding: 0px 0px 0px ;
+  /* position: relative; */
+  height: 500px;
+
+}
+
+
+.letchat button{
+  position:fixed;
+  width:100px;
+  height:40px;
+  bottom:40px;
+  right:40px;
+  background-color:black;
+  color:#FFF;
+  cursor: pointer;
+  /* border-radius:50px; */
+  text-align:center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  padding: 50px 0px 0px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title .dash {
+  display: block;
+  width: 25px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.content {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-buttons {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.tabs-button ul {
+}
+
+.tab-buttons ul li {
+  float: left;
+  display: block;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0px;
+  box-shadow: inset 0 -1px 0 lightgrey;
+}
+
+.tab-buttons ul li.active {
+  box-shadow: inset 0 -3px 0 cadetblue;
+}
+
+.tab-content {
+  display: flex;
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.card {
+  /* padding: 150px 20px; */
+  height: 250px;
+  width: 250px;
+  /* top: 300px; */
+  justify-content: center;
+  border: 1px solid black;
+  /* border-radius:30px; */
+  margin: 0 15px 15px 0;
+  background-color: white;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p {
+  padding: 5px 0;
+}
+
+.card .actions {
+  text-align: center;
+  margin-top: auto;
+}
+
+.card .actions button {
+  background-color: black;
+  color: white;
+  padding: 5px 30px;
+  cursor:pointer;
+}
+
+
+
+
+
